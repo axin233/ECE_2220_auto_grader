@@ -40,3 +40,7 @@ For the output files
 - *input_log.txt* contains the results of testing a student's code with *test_input*.
 - *report_test_input.csv* has a column `Run_finished` to show if a student's code can process *test_input*.
 - *input_compare.csv* shows students' answers in Column `Student_answers`, and shows the correct answers in Column `Target_answers`. **(Since students might have their own output format, the auto grader program might fail to detect the answers. It is recommended to manually check the student's *input_log.txt* if he/she fails to get full credits)**
+
+## Known bugs
+- Project 5 (i.e., Shell I/O) requires manually testing students' programs, as students' programs need to be re-started after running a single test example.
+- Project 6 (i.e., Parent and child process) requires manually testing students' programs, as the instant program output determines the next program input.
