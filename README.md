@@ -11,4 +11,4 @@ Step 1, 3, 4, and 5 generate a CSV report that has the same arrangement. By comb
 ## Prerequisite
 1. A MOSS account. (Here is a great [MOSS tutorial](https://www.youtube.com/watch?v=VT_7Rps0Wdk)!)
 2. A CSV file with students' full names. (Please refer to *student_names.csv* in this repository)
-3. A virtual environment for running the auto grader program. (I recommend creating a [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) virtual environment and then activate it in VScode. A tutorial is available [here](https://stackoverflow.com/questions/43351596/activating-anaconda-environment-in-vscode))
+3. A virtual environment for running the auto grader program. (I recommend creating a [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/) virtual environment and then activate it in VSCode. A tutorial is available [here](https://stackoverflow.com/questions/43351596/activating-anaconda-environment-in-vscode))
