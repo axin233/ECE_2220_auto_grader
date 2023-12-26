@@ -1,12 +1,12 @@
 # ECE_2220_auto_grader
 Being tired of checking students' C programs? This Python program will save your lives! The Python program supports
 1. Automatically organize students' solutions downloaded from Canvas.
-2. Automatically generat [MOSS](https://theory.stanford.edu/~aiken/moss/) command for checking plagiarism.
+2. Automatically generate [MOSS](https://theory.stanford.edu/~aiken/moss/) command for checking plagiarism.
 3. Automatically compile students' code.
 4. Automatically test students' code.
-5. (For Project 1, 2, 3, and 4) Automatically compare the students' output with the correct output.
+5. (For Project 1, 2, 3, and 4) Automatically compare students' output with the correct output.
 
-Step 1, 3, and 4 generate a CSV report that has the same arrangement. By combining the CSV files into a single spreadsheet and checking the results of Step 5, students' final scores are calculated via Excel formula. :hugs:
+Step 1, 3, and 4 generate a CSV report that has the same arrangement. By combining the CSV files into a single spreadsheet and checking the results of Step 5, students' final scores can then be calculated via Excel formula. :hugs:
 
 ## Prerequisite
 1. An Apollo account for using the university's Linux workstation. (Please send an Apollo account request to `coes-unixadm@clemson.edu`)
@@ -29,7 +29,7 @@ Now, it is time to use the auto grader program. Line 21-24 in `grading_assist.py
 -->
 
 <p align="center">
-  <img width="1080" height="338" src="https://github.com/axin233/ECE_2220_auto_grader/assets/59490151/7ccad1a6-cf6a-4825-a9b7-ac6d93b86d4e">
+  <img width="1080" height="340" src="https://github.com/axin233/ECE_2220_auto_grader/assets/59490151/e73f8f9e-28c6-45e6-b175-beb80e5bee03">
 </p>
 
 > Fig. 1. Instructions for using the auto grader program.
@@ -44,7 +44,7 @@ For the output files
 - *input_compare.csv* shows students' answers in Column `Student_answers`, and shows the correct answers in Column `Target_answers`. **(Since students might have their own output format, the auto grader program might fail to detect their answers. It is recommended to manually check the student's *input_log.txt* if he/she fails to get full credits.)**
 
 ## Known problems
-- Project 5 (i.e., Shell I/O) requires manually testing students' programs, as students' programs need to be re-started after running a single test example.
+- Project 5 (i.e., Shell I/O) cannot be processed by the auto grader program, as each student has two submitted files. Also, the students' executable files need to be re-started after running a single test example.
 - Project 6 (i.e., Parent and child process) requires manually testing students' programs, as the instantaneous program output determines the next program input.
 - When comparing students' answers with the correct answers, the comparison results (i.e., `input_compare.csv` in Fig. 1) are in each student's directory. Thus, it is still required to check the comparison results per student.
 - If there are other problems, please feel free to email me at jianxig@g.clemson.edu :sunglasses:
